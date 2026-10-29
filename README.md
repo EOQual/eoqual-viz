@@ -39,6 +39,8 @@ Dépendances : numpy et plotly, rien d'autre.
 | Module | Fonctions | Usage typique |
 |---|---|---|
 | `eoqual.viz.heatmap` | `plot_array` | Afficher un tableau 2D (PSF, masque, carte de phase...) en heatmap interactive, échelle log optionnelle |
+| `eoqual.viz.gallery` | `plot_image_grid` | Comparer plusieurs images côte à côte (observée, restaurée, référence), à échelle commune |
+| `eoqual.viz.curves` | `plot_curves` | Plusieurs courbes `y(x)` sur un graphe, axes log optionnels (convergence, critère en fonction d'un paramètre) |
 | `eoqual.viz.profile` | `plot_curve_grid` | Comparer une ou plusieurs courbes "estimées" à une référence optionnelle, sur un axe partagé, avec repères verticaux (ex. une fréquence de coupure) |
 
 ```python
@@ -82,6 +84,7 @@ concerné (ex. `eoqual.phaseretrieval.diagnostics`), qui appelle ensuite
 | Module | Fonctions utilisées |
 |---|---|
 | eoqual-phaseretrieval | `plot_array` (PSF, masque, cartes de phase), `plot_curve_grid` (coupes PSF/FTM) |
+| eoqual-deconvolution | `plot_image_grid` (résultats), `plot_curves` (convergence, réglage), `plot_array` (PSF) |
 
 ## Licence
 

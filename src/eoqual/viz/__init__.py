@@ -14,7 +14,7 @@ Public API
 Voir ``README.md`` pour le catalogue et les règles de ce paquet.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __title__ = "eoqual.viz"
 __description__ = "Generic Plotly visualisation helpers shared across EOQual modules"
 __url__ = "https://github.com/EOQual/eoqual-viz"
@@ -25,10 +25,14 @@ __email__ = "olivier.amram@free.fr"
 __license__ = "MIT"
 __copyright__ = "Copyright (c) 2026 Olivier Amram"
 
+from .curves import plot_curves  # noqa: F401
+from .gallery import plot_image_grid  # noqa: F401
 from .heatmap import plot_array  # noqa: F401
 from .profile import plot_curve_grid  # noqa: F401
 
 __all__ = [
     "plot_array",
     "plot_curve_grid",
+    "plot_curves",
+    "plot_image_grid",
 ]

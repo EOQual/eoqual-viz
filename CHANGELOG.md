@@ -1,6 +1,11 @@
 # Change Log
 
-## Non publié
+## Non publié (0.2.0)
+
+- `plot_image_grid` (`gallery`) : galerie d'images 2D, ligne 0 en haut,
+  pixels carrés, échelle de couleur commune ou propre à chaque image.
+- `plot_curves` (`curves`) : plusieurs courbes `(étiquette, x, y)` sur un
+  même graphe, axes linéaires ou logarithmiques, repères verticaux.
 
 - `plot_curve_grid(..., vlines=...)` : chaque repère devient
   `(valeur, étiquette, couleur)` au lieu de `(valeur, étiquette)` —
