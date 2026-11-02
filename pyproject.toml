@@ -24,6 +24,11 @@ python = ">=3.10,<4.0"
 numpy = "*"
 plotly = "*"
 
+[tool.poetry.group.docs.dependencies]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinx-autoapi = "*"
+
 [tool.poetry.group.dev.dependencies]
 poetry = "^2.1.1"
 ipython = "^8.8.0"

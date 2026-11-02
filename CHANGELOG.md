@@ -1,6 +1,14 @@
 # Change Log
 
-## Non publié (0.2.0)
+## Non publié
+
+- Documentation Sphinx/autoapi (`docs/`), publiée sur GitHub Pages à
+  chaque push sur `main` (`.github/workflows/docs.yml`), comme les autres
+  modules EOQual.
+- Tests lancés automatiquement par GitHub Actions
+  (`.github/workflows/tests.yml`).
+
+## 0.2.0 (2026-10-29)
 
 - `plot_image_grid` (`gallery`) : galerie d'images 2D, ligne 0 en haut,
   pixels carrés, échelle de couleur commune ou propre à chaque image.
